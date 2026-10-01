@@ -16,8 +16,8 @@
 <tr><td>整句翻译、逐词讲解</td><td>你点击翻译的那一句文字</td><td>翻译成英文并讲解</td></tr>
 <tr><td>帮我回复、AI 帮写</td><td>你复制或主动提交的消息文字</td><td>生成回复建议</td></tr>
 <tr><td>语音输入</td><td>你按住说话时录制的音频</td><td>语音转文字</td></tr></table>
-<p>上述文字请求发送至我们的服务器（dify.midooai.cn），再由我们接入的大语言模型服务处理；语音转文字由 OpenAI 的语音识别接口处理。请求中附带一个在本机随机生成的匿名标识（不与你的身份、设备序列号或广告标识关联），仅用于服务稳定性统计和防止滥用。</p>
-<p>我们不会把你的输入内容用于广告、出售或与无关第三方共享，也不会用于识别你的身份。服务器日志仅用于排查故障和防止滥用，只在必要期限内保留；第三方模型服务商按其自身政策处理 API 数据（例如 OpenAI 声明 API 数据默认不用于训练模型）。</p>
+<p>上述文字和语音请求发送至我们的服务器（dify.midooai.cn），再由我们接入的大语言模型及语音识别服务处理；如服务器转写失败，App 会改用 Apple 的系统语音识别（需你授权“语音识别”权限，由 Apple 按其隐私政策处理）。请求中附带一个在本机随机生成的匿名标识（不与你的身份、设备序列号或广告标识关联），仅用于服务稳定性统计和防止滥用。</p>
+<p>我们不会把你的输入内容用于广告、出售或与无关第三方共享，也不会用于识别你的身份。服务器日志仅用于排查故障和防止滥用，只在必要期限内保留；第三方模型服务商按其自身政策处理 API 数据。</p>
 <p>密码框等安全输入场景下，iOS 会自动切换为系统键盘，本应用无法获取其中内容。</p></section>
 
 <section><h2>保存在你设备上的数据</h2>
@@ -27,7 +27,8 @@
 
 <section><h2>权限说明</h2>
 <ul><li><b>允许完全访问</b>：用于联网翻译、帮我回复、语音输入，以及在 App 与键盘之间同步设置和词库。不开启时仍可正常离线打字。</li>
-<li><b>麦克风</b>：仅在你使用语音输入时录音。</li></ul></section>
+<li><b>麦克风</b>：仅在你使用语音输入时录音。</li>
+<li><b>语音识别</b>：仅在服务器转写失败时，调用 Apple 系统语音识别把录音转成文字。</li></ul></section>
 
 <section><h2>儿童隐私</h2><p>本应用面向一般用户，不会主动收集儿童个人信息。如你认为我们无意中处理了儿童的信息，请联系我们删除。</p></section>
 
@@ -37,6 +38,6 @@
 
 <section id="en"><h2>Privacy Policy (English summary)</h2>
 <p>Midoo Translation Keyboard is provided by Hong Kong Omega AI Technology Limited. Core typing features (pinyin input, candidate ranking, personal dictionary, word glosses) run entirely on your device and work without “Allow Full Access”. No account is required; we do not collect names, phone numbers, contacts or location; there are no ads and no third-party analytics or tracking SDKs.</p>
-<p>Only when Full Access is enabled and you use online features is content sent over HTTPS: the sentence candidate being composed (English-learning hints), text you choose to translate, messages you copy for “Reply for me”, and voice recordings for speech-to-text. Text is processed by our server (dify.midooai.cn) and the large language model providers it connects to; speech is transcribed by OpenAI. Requests carry a random, anonymous on-device identifier used only for reliability and abuse prevention. We never sell your data or use it for advertising. Server logs are used only for troubleshooting and abuse prevention and are kept no longer than necessary.</p>
+<p>Only when Full Access is enabled and you use online features is content sent over HTTPS: the sentence candidate being composed (English-learning hints), text you choose to translate, messages you copy for “Reply for me”, and voice recordings for speech-to-text. Text and voice are processed by our server (dify.midooai.cn) and the language-model and speech-recognition providers it connects to; if server transcription fails, the app falls back to Apple's Speech Recognition (with your permission). Requests carry a random, anonymous on-device identifier used only for reliability and abuse prevention. We never sell your data or use it for advertising. Server logs are used only for troubleshooting and abuse prevention and are kept no longer than necessary.</p>
 <p>Your personal dictionary and settings stay on your device; deleting the app removes them. Contact: <a href="mailto:coremini@163.com">coremini@163.com</a>.</p></section>
 </main></body></html>
