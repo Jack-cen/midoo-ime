@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Midoo翻译输入法 隐私政策</title><link rel="stylesheet" href="style.css"><link rel="icon" href="icon.png"></head><body><main>
-<header><img src="icon.png" alt=""><div><h1>Midoo翻译输入法 隐私政策</h1><p>生效日期：2026 年 10 月 12 日</p></div></header>
+<header><img src="icon.png" alt=""><div><h1>Midoo翻译输入法 隐私政策</h1><p>生效日期：2026 年 10 月 13 日</p></div></header>
 <nav><a href="index.html">技术支持</a><a href="#en">English</a></nav>
 
 <section><h2>概述</h2>
@@ -24,7 +24,7 @@
 <p>为了改进输入法，本应用默认开启“匿名使用统计”，数据通过 HTTPS 发送到我们自己的服务器（ime.midooai.cn），不经过任何第三方统计平台。键盘只有在开启“允许完全访问”后才能联网上报。统计包含两类内容：</p>
 <ul><li><b>使用次数</b>：例如打了多少字、按键和选词的次数、选的是第几个候选、各功能用了几次、联网请求是否成功及耗时，以及机型、系统版本、App 版本和设置开关状态。</li>
 <li><b>候选纠错样例</b>：只有当排在第一位的候选不是你想要的、你改选了别的词时，才会记录这一次输入的拼音、当时排第一的候选词和你最终选的词（不含前后文，较长的内容不记录）。这些片段偶尔可能包含人名、地名等词语，仅用于提高首选准确率，最长保留 180 天。</li></ul>
-<p>统计使用一个在本机随机生成的匿名标识来区分设备，不与你的身份、账号、设备序列号或广告标识关联。除上述样例外，你输入的其他内容、剪贴板和聊天记录都不会被统计上报。</p>
+<p>统计使用一个匿名的设备标识来区分设备：新版本用的是 iOS 系统提供的“厂商设备标识”（identifierForVendor），早期版本用的是在本机随机生成的标识。它不是广告标识，不能用来在其他开发者的 App 里识别你，也不与你的身份、账号关联；把本应用删除后重新安装，这个标识可能会变。除上述样例外，你输入的其他内容、剪贴板和聊天记录都不会被统计上报。</p>
 <p><b>如何关闭：</b>打开 Midoo App ›「设置」›「智能与隐私」，关闭「匿名使用统计」。关闭后不再记录，也不再上报。</p>
 <p>此外，App 会不定期向我们的服务器查询是否有新版本，请求中只包含 App 版本、系统版本和上述匿名标识。</p></section>
 
@@ -45,6 +45,6 @@
 <section id="en"><h2>Privacy Policy (English summary)</h2>
 <p>Midoo Translate Keyboard is provided by Hong Kong Omega AI Technology Limited. Core typing features (pinyin input, candidate ranking, personal dictionary, word glosses, built-in word pronunciations) run entirely on your device and work without “Allow Full Access”. No account is required; we do not collect names, phone numbers, contacts or location; there are no ads and no third-party analytics or tracking SDKs.</p>
 <p><b>Online features.</b> Only when Full Access is enabled and you use online features is content sent over HTTPS: the sentence candidate being composed (English-learning hints), text you choose to translate, and messages you copy for “Reply for me” are processed by our server (dify.midooai.cn) and the third-party large language model providers it connects to; English phrases to be read aloud are sent to the third-party text-to-speech provider MiniMax. Requests carry a random, anonymous on-device identifier used only for reliability and abuse prevention.</p>
-<p><b>Anonymous usage statistics (on by default, can be turned off).</b> To improve the keyboard we send to our own server (ime.midooai.cn): usage counts (characters typed, keys pressed, which candidate position was chosen, feature usage, request success and latency), device model, OS version, app version and setting switches; and, only when the first candidate was not what you wanted and you picked another one, the pinyin typed for that input, the candidate that was ranked first and the word you chose (no surrounding text; kept for up to 180 days). These are tied to a random on-device identifier, not to your identity. Turn it off in the Midoo app › Settings › Intelligence &amp; Privacy › Anonymous usage statistics. The app also checks our server for new versions (app version, OS version and the anonymous identifier only).</p>
+<p><b>Anonymous usage statistics (on by default, can be turned off).</b> To improve the keyboard we send to our own server (ime.midooai.cn): usage counts (characters typed, keys pressed, which candidate position was chosen, feature usage, request success and latency), device model, OS version, app version and setting switches; and, only when the first candidate was not what you wanted and you picked another one, the pinyin typed for that input, the candidate that was ranked first and the word you chose (no surrounding text; kept for up to 180 days). These are tied to an anonymous device identifier (the vendor identifier provided by iOS, identifierForVendor; earlier versions used a random on-device identifier). It is not the advertising identifier, cannot be used to recognise you in other developers' apps, and is not linked to your identity. Turn it off in the Midoo app › Settings › Intelligence &amp; Privacy › Anonymous usage statistics. The app also checks our server for new versions (app version, OS version and the anonymous identifier only).</p>
 <p>We never sell your data or use it for advertising or tracking. Server logs are used only for troubleshooting and abuse prevention and are kept no longer than necessary. Your personal dictionary and settings stay on your device; deleting the app removes them. Contact: <a href="mailto:coremini@163.com">coremini@163.com</a>.</p></section>
 </main></body></html>
